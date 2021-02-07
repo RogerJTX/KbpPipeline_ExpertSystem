@@ -1,0 +1,4 @@
+type=command
+command=echo "simul end node"
+dependencies=patent_arango2hbase,company_arango2hbase,software_arango2hbase,product_arango2hbase,expert_arango2hbase,recruit_arango2hbase,judgedoc_arango2hbase,conference_arango2hbase,organization_arango2hbase,trademark_arango2hbase
+failure.emails=yfyang@quant-chi.com,czong@quant-chi.com,yfwang@quant-chi.com,yjliu@quant-chi.com

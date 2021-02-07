@@ -1,0 +1,5 @@
+type=command
+command=/home/apollo/anaconda3/bin/python3 /opt/supermind-job-center/kbpPipeline/judgedoc/judgedoc_kbp.py yesterday
+dependencies=judgedoc_clean
+retries=3
+retry.backoff=5000

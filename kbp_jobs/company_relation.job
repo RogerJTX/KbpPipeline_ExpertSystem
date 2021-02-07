@@ -1,0 +1,5 @@
+type=command
+command=/home/apollo/anaconda3/bin/python3 /opt/supermind-job-center/kbpPipeline/company/company_relation.py yesterday
+dependencies=company_kbp,patent_kbp,software_kbp,recruit_kbp,judgedoc_kbp,conference_kbp
+retries=3
+retry.backoff=5000

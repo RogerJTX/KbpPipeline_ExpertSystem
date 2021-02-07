@@ -1,0 +1,5 @@
+type=command
+command=/home/apollo/anaconda3/bin/python3 /opt/supermind-job-center/kbpPipeline/trademark/trademark_relation.py yesterday
+dependencies=company_relation,trademark_kbp
+retries=3
+retry.backoff=5000

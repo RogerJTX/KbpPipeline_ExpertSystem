@@ -1,0 +1,5 @@
+type=command
+command=/home/apollo/anaconda3/bin/python3 /opt/supermind-job-center/kbpPipeline/expert/expert_relation.py yesterday
+dependencies=expert_kbp,organization_kbp
+retries=3
+retry.backoff=5000

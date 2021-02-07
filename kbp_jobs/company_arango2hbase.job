@@ -1,0 +1,5 @@
+type=command
+command=/home/apollo/anaconda3/bin/python3 /opt/supermind-job-center/kbpPipeline/company/company_arango2hbase.py yesterday
+dependencies=company_relation,company_manual_tags_refresh,company_manual_channel_refresh
+retries=3
+retry.backoff=5000

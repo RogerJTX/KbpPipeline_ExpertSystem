@@ -1,0 +1,4 @@
+type=command
+command=/home/apollo/anaconda3/bin/python3 /opt/supermind-job-center/kbpPipeline/patent/patent_clean.py yesterday
+retries=3
+retry.backoff=5000

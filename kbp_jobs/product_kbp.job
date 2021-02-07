@@ -1,0 +1,5 @@
+type=command
+command=/home/apollo/anaconda3/bin/python3 /opt/supermind-job-center/kbpPipeline/product/product_kbp.py yesterday
+dependencies=product_clean,product_website_clean
+retries=3
+retry.backoff=5000

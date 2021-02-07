@@ -1,0 +1,16 @@
+type=command
+command=python3 /opt/supermind-job-center/kbpPipeline/count_table_increment.py today entity mongodb res_kb res_kb_company crawl_time
+command.1=python3 /opt/supermind-job-center/kbpPipeline/count_table_increment.py today entity mongodb res_kb res_kb_conference crawl_time
+command.2=python3 /opt/supermind-job-center/kbpPipeline/count_table_increment.py today entity mongodb res_kb res_kb_expert crawl_time
+command.3=python3 /opt/supermind-job-center/kbpPipeline/count_table_increment.py today entity mongodb res_kb res_kb_financing crawl_time
+command.4=python3 /opt/supermind-job-center/kbpPipeline/count_table_increment.py today entity mongodb res_kb res_kb_institution create_time
+command.5=python3 /opt/supermind-job-center/kbpPipeline/count_table_increment.py today entity mongodb res_kb res_kb_organization crawl_time
+command.6=python3 /opt/supermind-job-center/kbpPipeline/count_table_increment.py today entity mongodb res_kb res_kb_park create_time
+command.7=python3 /opt/supermind-job-center/kbpPipeline/count_table_increment.py today entity mongodb res_kb res_kb_patent crawl_time
+command.8=python3 /opt/supermind-job-center/kbpPipeline/count_table_increment.py today entity mongodb res_kb res_kb_product crawl_time
+command.9=python3 /opt/supermind-job-center/kbpPipeline/count_table_increment.py today entity mongodb res_kb res_kb_software crawl_time
+command.10=python3 /opt/supermind-job-center/kbpPipeline/count_table_increment.py today entity mongodb res_kb res_kb_trademark crawl_time
+command.11=python3 /opt/supermind-job-center/kbpPipeline/count_table_increment.py today entity mongodb res_kb res_kb_judgedoc crawl_time
+command.12=python3 /opt/supermind-job-center/kbpPipeline/count_table_increment.py today entity mongodb res_kb res_kb_recruit crawl_time
+retries=3
+retry.backoff=5000

@@ -1,0 +1,5 @@
+type=command
+command=/home/apollo/anaconda3/bin/python3 /opt/supermind-job-center/kbpPipeline/conference/conference_kbp.py yesterday
+dependencies=conference_clean
+retries=3
+retry.backoff=5000
